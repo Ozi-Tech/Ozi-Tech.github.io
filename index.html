@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ekene Ndubueze - Full-Stack Developer & Problem Solver. Building reliable software with React, Python, Java, and modern web technologies.">
+    <meta name="keywords" content="Ekene Ndubueze, Software Developer, Full-Stack Developer, React, Python, Java, Ottawa Developer, Portfolio">
+    <meta name="author" content="Ekene Ndubueze">
+    <title>Ekene Ndubueze | Full-Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">EN<span class="cursor">_</span></a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-grid"></div>
+        <div class="hero-gradient"></div>
+        <div class="container">
+            <div class="hero-content">
+                <p class="hero-label" data-aos="fade-up">Hi, I'm</p>
+                <h1 class="hero-title" data-aos="fade-up" data-aos-delay="100">Ekene Ndubueze</h1>
+                <h2 class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">Full-Stack Developer & Problem Solver</h2>
+                <p class="hero-description" data-aos="fade-up" data-aos-delay="300">
+                    Building reliable software that actually works. Specializing in React, Python, and modern web technologies.
+                </p>
+                <div class="hero-cta" data-aos="fade-up" data-aos-delay="400">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+                <div class="hero-stats" data-aos="fade-up" data-aos-delay="500">
+                    <div class="stat">
+                        <span class="stat-number">35%</span>
+                        <span class="stat-label">Defect Reduction</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">18+</span>
+                        <span class="stat-label">Features Shipped</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">95%+</span>
+                        <span class="stat-label">OCR Accuracy</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About Me</h2>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-up" data-aos-delay="100">
+                    <p>
+                        I'm a full-stack developer. I graduated from Algonquin College's Computer Programming program in June 2025 with a 3.97/4.0 GPA. My path to tech wasn't traditional, I have a law degree but realized my passion was building software that solves real problems, not arguing in courtrooms.
+                    </p>
+                    <p>
+                        At Mara, I worked with engineering teams to ship production features that reduced post-release defects by 35% and improved incident resolution time by 33%. At Lubumi Africa, I delivered 18 features across 6 sprint cycles and participated in 30+ code reviews. I write clean, maintainable code and I'm comfortable working in existing codebases, collaborating with cross-functional teams and owning projects from concept to deployment.
+                    </p>
+                    <p>
+                        I'm drawn to companies that value both technical excellence and culture fit, places where I can contribute from day one while continuing to grow. I move fast without sacrificing quality, I ask questions early and I believe the best software is built through collaboration and honest feedback.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <span class="highlight-icon">🎓</span>
+                            <span>3.97 GPA, Computer Programming</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-icon">💼</span>
+                            <span>2+ Years Production Experience</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-icon">🚀</span>
+                            <span>Career Switcher, Law → Tech</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Featured Projects</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+                Real applications solving real problems
+            </p>
+            
+            <div class="projects-grid">
+                <!-- Project 1: OCR Label Scanner -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <img src="assets/ocr-demo.gif" alt="AI-Powered Label Scanner Demo" loading="lazy">
+                        <div class="project-overlay">
+                            <a href="https://github.com/Ozi-Tech/LabelXtract-OCR" target="_blank" class="project-link">View on GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Kotlin</span>
+                            <span class="tag">Google ML Kit</span>
+                            <span class="tag">CameraX</span>
+                            <span class="tag">Android</span>
+                        </div>
+                        <h3 class="project-title">AI-Powered Shipping Label Scanner</h3>
+                        <p class="project-description">
+                            Android application using OCR to extract tracking numbers from shipping labels with 95%+ accuracy. Submitted to Canada Post for API integration. Built preprocessing pipeline, validation logic, and error handling for real-world label variability.
+                        </p>
+                        <ul class="project-features">
+                            <li>95%+ OCR accuracy on standard labels</li>
+                            <li>Client-side validation reducing failed API calls by 82%</li>
+                            <li>Real-time camera processing across multiple Android devices</li>
+                            <li>Processing time under 8 seconds vs about 60 seconds manual entry</li>
+                        </ul>
+                        <div class="project-footer">
+                            <span class="project-role">Team of 5 | ML Kit Integration Lead</span>
+                            <a href="https://github.com/Ozi-Tech/LabelXtract-OCR" target="_blank" class="project-github">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                </svg>
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Data Management System -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-image">
+                        <div class="project-carousel">
+                            <img src="assets/data-app-1.png" alt="Pet Adoption Management System" loading="lazy" class="carousel-image active">
+                            <img src="assets/data-app-2.png" alt="Pet Adoption Management System" loading="lazy" class="carousel-image">
+                            <img src="assets/data-app-3.png" alt="Pet Adoption Management System" loading="lazy" class="carousel-image">
+                            <img src="assets/data-app-4.png" alt="Pet Adoption Management System" loading="lazy" class="carousel-image">
+                            <button class="carousel-btn prev" onclick="changeSlide(-1)">‹</button>
+                            <button class="carousel-btn next" onclick="changeSlide(1)">›</button>
+                            <div class="carousel-dots">
+                                <span class="dot active" onclick="currentSlide(0)"></span>
+                                <span class="dot" onclick="currentSlide(1)"></span>
+                                <span class="dot" onclick="currentSlide(2)"></span>
+                                <span class="dot" onclick="currentSlide(3)"></span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">FastAPI</span>
+                            <span class="tag">MongoDB</span>
+                        </div>
+                        <h3 class="project-title">Pet Adoption Management System</h3>
+                        <p class="project-description">
+                            Full-stack web application managing pet adoption records across multiple animal shelters. Built with React frontend and Python FastAPI backend with MongoDB database. Implemented complete CRUD operations, real-time filtering, and data validation.
+                        </p>
+                        <ul class="project-features">
+                            <li>12 RESTful API endpoints with 99.2% uptime during testing</li>
+                            <li>Dynamic filtering by species, status, and shelter location</li>
+                            <li>Data validation pipeline with 12 business rules</li>
+                            <li>Responsive UI supporting concurrent user operations</li>
+                        </ul>
+                        <div class="project-footer">
+                            <span class="project-role">Team of 3 | Full-Stack Development</span>
+                            <span class="project-github disabled">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                </svg>
+                                Private Repo
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Experience</h2>
+            
+            <div class="timeline">
+                <!-- Mara -->
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="timeline-title">Associate Product Manager (Technical)</h3>
+                                <p class="timeline-company">Mara Cryptocurrency Wallet | Lagos, Nigeria</p>
+                            </div>
+                            <span class="timeline-date">March 2022 – Feb 2023</span>
+                        </div>
+                        <ul class="timeline-achievements">
+                            <li>Reduced post-release defects by <strong>35%</strong> by coordinating QA validation across 12 production releases with a team of 8 engineers</li>
+                            <li>Decreased incident resolution time from <strong>4.2 hours to 2.8 hours</strong> by implementing structured log analysis workflows using Jira</li>
+                            <li>Improved feature adoption by <strong>28%</strong> by creating 15+ technical documentation pages in Confluence, reducing support tickets by 40%</li>
+                            <li>Designed 8 KPI dashboards in Amplitude tracking <strong>4,000,000+ monthly users</strong></li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag-small">Jira</span>
+                            <span class="tag-small">Confluence</span>
+                            <span class="tag-small">Amplitude</span>
+                            <span class="tag-small">Agile</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Lubumi -->
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="timeline-title">Software Developer (Intern)</h3>
+                                <p class="timeline-company">Lubumi Africa | Lagos, Nigeria</p>
+                            </div>
+                            <span class="timeline-date">May 2021 – Feb 2022</span>
+                        </div>
+                        <ul class="timeline-achievements">
+                            <li>Delivered <strong>18 production features</strong> across 6 sprint cycles using JavaScript, HTML5, CSS3, and REST APIs</li>
+                            <li>Reduced recurring bugs by <strong>42%</strong> through systematic debugging and implementing fixes validated through 80+ test cases</li>
+                            <li>Improved codebase stability by participating in <strong>30+ code reviews</strong> and maintaining Git workflows with feature branches</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag-small">JavaScript</span>
+                            <span class="tag-small">HTML5/CSS3</span>
+                            <span class="tag-small">REST APIs</span>
+                            <span class="tag-small">Git</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education -->
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="timeline-title">Diploma in Computer Programming</h3>
+                                <p class="timeline-company">Algonquin College | Ottawa, ON</p>
+                            </div>
+                            <span class="timeline-date">Sep 2023 – Apr 2025</span>
+                        </div>
+                        <ul class="timeline-achievements">
+                            <li><strong>CGPA: 3.97</strong> — Dean's List</li>
+                            <li>Peer Mentor for 12 international students, organizing weekly technical interview prep sessions</li>
+                            <li>Coursework: Data Structures, Algorithms, Databases, Web Development, Mobile Development</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Technical Skills</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+                Technologies I work with daily
+            </p>
+            
+            <div class="skills-grid">
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                    <h3 class="skill-category-title">Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript (ES6+)</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Java</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">SQL</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Kotlin</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 75%"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                    <h3 class="skill-category-title">Frontend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">React</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">HTML5/CSS3</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Responsive Design</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="400">
+                    <h3 class="skill-category-title">Backend & Database</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">FastAPI</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">REST APIs</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">PostgreSQL</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">MongoDB</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 75%"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="500">
+                    <h3 class="skill-category-title">Tools & Practices</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git/GitHub</span>
+                        <span class="skill-tag">Jira</span>
+                        <span class="skill-tag">Confluence</span>
+                        <span class="skill-tag">Agile/Scrum</span>
+                        <span class="skill-tag">Code Reviews</span>
+                        <span class="skill-tag">CI/CD</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">Android Studio</span>
+                        <span class="skill-tag">Linux CLI</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Let's Build Something</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+                I'm currently looking for junior/associate software developer or data analyst opportunities. Let's connect.
+            </p>
+            
+            <div class="contact-content" data-aos="fade-up" data-aos-delay="200">
+                <div class="contact-links">
+                    <a href="mailto:ekene.ndubueze@gmail.com" class="contact-link">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        <span>ekene.ndubueze@gmail.com</span>
+                    </a>
+                    
+                    <a href="https://linkedin.com/in/ekene-ndubueze" target="_blank" class="contact-link">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                        </svg>
+                        <span>linkedin.com/in/ekene-ndubueze</span>
+                    </a>
+                    
+                    <a href="https://github.com/Ozi-Tech" target="_blank" class="contact-link">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                        <span>github.com/Ozi-Tech</span>
+                    </a>
+                </div>
+                
+                <div class="contact-cta">
+                    <a href="assets/ekene-ndubueze-resume.pdf" download class="btn btn-primary">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="7 10 12 15 17 10"></polyline>
+                            <line x1="12" y1="15" x2="12" y2="3"></line>
+                        </svg>
+                        Download Resume
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Ekene Ndubueze. Built with focus and determination.</p>
+            <p class="footer-note">Designed & developed by Ekene Ndubueze</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
