@@ -1,24 +1,31 @@
-# Ekene Ndubueze - Portfolio Website
+# ekenendubueze.com — Portfolio
 
-A modern, responsive portfolio website showcasing software development projects, experience, and skills.
+Personal portfolio site built with React, Tailwind CSS, and Framer Motion. Features an AI-powered chatbot using OpenAI GPT-4o-mini via Vercel serverless function.
 
-## 🚀 Live Demo
+## Tech Stack
 
-`https://ozi-tech.github.io/` 
+- **Frontend**: React 18, Tailwind CSS, Framer Motion
+- **Chatbot API**: Vercel Serverless Functions + OpenAI GPT-4o-mini
+- **Build Tool**: Vite
+- **Hosting**: Vercel
 
-## 📁 Project Structure
+## Local Development
+
+```bash
+# Install dependencies
+npm install
+
+# Start dev server
+npm run dev
 
 ```
-portfolio/
-├── index.html          # Main HTML file
-├── style.css           # Styling and animations
-├── script.js           # Interactive functionality
-├── assets/             # Images and downloadable files
-│   ├── ocr-demo.gif    # OCR app demo
-│   ├── data-app-1.png  # Data management screenshot 1
-│   ├── data-app-2.png  # Data management screenshot 2
-│   ├── data-app-3.png  # Data management screenshot 3
-│   ├── data-app-4.png  # Data management screenshot 4
-│   └── ekene-ndubueze-resume.pdf  # Downloadable resume
-└── README.md           # This file
-```
+
+## Chatbot
+
+The AI chatbot is rate-limited to 5 messages per session (client-side) and 20 requests per IP per hour (server-side). It uses a system prompt built from the profile data in `src/data/profile.js` to ensure accurate responses.
+
+Monthly cost estimate at low traffic: < $0.50/month (thereabout)
+
+## License
+
+MIT
