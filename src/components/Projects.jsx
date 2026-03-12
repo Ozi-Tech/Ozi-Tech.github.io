@@ -15,7 +15,9 @@ function ProjectCard({ project, index, inView }) {
     >
       {/* Image area */}
       {images.length > 0 && (
-        <div className="project-image-wrapper relative aspect-auto bg-base-900">
+        <div className={`project-image-wrapper relative bg-base-900 ${
+          project.images?.length > 1 ? "aspect-video" : "aspect-auto max-h-[800px] flex items-center justify-center"
+    }`}>
           <img
             src={images[imgIdx]}
             alt={project.title}
@@ -32,7 +34,7 @@ function ProjectCard({ project, index, inView }) {
                   className={`w-2 h-2 rounded-full transition-all ${
                     i === imgIdx
                       ? "bg-accent w-5"
-                      : "bg-white/30 hover:bg-white/50"
+                      : "bg-base-600 hover:bg-base-950"
                   }`}
                   aria-label={`Show image ${i + 1}`}
                 />
@@ -203,7 +205,7 @@ export default function Projects() {
         </div>
 
         {/* Featured projects - larger cards */}
-        <div className="grid md:grid-cols-2 gap-6 mb-6">
+        <div className="grid md:grid-cols-2 gap-6 mb-6 items-start">
           {featured.map((project, i) => (
             <ProjectCard
               key={project.id}
