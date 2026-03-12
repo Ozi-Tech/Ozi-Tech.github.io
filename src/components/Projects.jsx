@@ -15,11 +15,11 @@ function ProjectCard({ project, index, inView }) {
     >
       {/* Image area */}
       {images.length > 0 && (
-        <div className="project-image-wrapper relative aspect-video bg-base-900">
+        <div className="project-image-wrapper relative aspect-auto bg-base-900">
           <img
             src={images[imgIdx]}
             alt={project.title}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-contain"
             loading="lazy"
           />
           {/* Carousel controls */}
